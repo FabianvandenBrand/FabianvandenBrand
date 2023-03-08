@@ -2,7 +2,7 @@
 
 /* Import declaration to use Google Fonts - check https://fonts.google.com/ for details */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&display=swap');
-
+@import url(https://use.typekit.net/ehd6hsl.css);
 /* Styles for the body */
 
 body {
@@ -20,7 +20,12 @@ body {
 .resume-main {
 	background-color: #BBF4FB;
 } 
-
+h2 {
+	color: #0900FF;
+font-family: "apolline", serif;
+font-weight: 700;
+font-style: italic;
+}
 .resume-aside {
 	background-color: #89DAFF;
 }
@@ -48,4 +53,9 @@ body {
 .contact-icon {
 	height: 1em;
 	flex-basis: 1.4em;
+}
+
+.my-3 biography-section {
+	font-color: #0900FF
+		
 }
